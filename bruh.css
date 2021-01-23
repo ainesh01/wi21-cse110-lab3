@@ -18,5 +18,14 @@ h3 {
 
 p {
     color: hsl(20,80,38);
+    text-decoration: overline;
 }
+
+p.dotted {
+  border-style: dotted;
+  border-color: #00F8F0;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
 
