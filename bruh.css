@@ -58,6 +58,10 @@ h3, ol {
 
 audio{
   display:block;
+  min-width: 10%;
+  position: relative;
+  top: 10px;
+
 }
 p.dotted {
   border-style: dotted;
@@ -97,4 +101,25 @@ img {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  position: static;
+}
+
+button:active {
+  color:chartreuse;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  column-gap: 5px;
+  row-gap: 5px;
 }
