@@ -55,6 +55,10 @@ h3, ol {
     text-align: center;
 }
 
+
+audio{
+  display:block;
+}
 p.dotted {
   border-style: dotted;
   border-color: #00F8F0;
@@ -68,6 +72,10 @@ p.dotted {
 
 li[class="a"] {
     background-color: yellow;
+}
+
+svg {
+  display: none;
 }
 
 
