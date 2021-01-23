@@ -118,8 +118,8 @@ button:active {
 
 .grid {
   display: grid;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  column-gap: 5px;
+  row-gap: 5px;
 }
