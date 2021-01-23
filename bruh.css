@@ -10,11 +10,15 @@ h1 {
 h1:hover {
   color: pink;
   margin-left: 20px;
+    line-height: 2em;
+
 }
 
 h2 {
   color: #00F8F0;
   margin-left: 20px;
+    line-height: 2em;
+
 }
 
 body header {
@@ -24,6 +28,8 @@ body header {
 
 p > span {
   background-color: DodgerBlue;
+    line-height: 2em;
+
 }
 
 img + figcaption {
