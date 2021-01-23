@@ -108,6 +108,10 @@ button:active {
   color:chartreuse;
 }
 
-          .box {
-            display: flex;
-          }
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+}
