@@ -1,10 +1,15 @@
 body {
   background-color: lightblue;
 }
+
+* {
+  font-family: 'Fraunces', serif;
+}
 /* bruh comment */
 h1 {
   color: navy;
   margin-left: 20px;
+
 }
 
 h1:hover {
@@ -63,4 +68,25 @@ p.dotted {
 
 li[class="a"] {
     background-color: yellow;
+}
+
+
+div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+img {
+  height: 300px;
+  border: 15px solid green;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
