@@ -7,18 +7,41 @@ h1 {
   margin-left: 20px;
 }
 
+h1:hover {
+  color: pink;
+  margin-left: 20px;
+}
+
 h2 {
   color: #00F8F0;
   margin-left: 20px;
 }
 
-h3 {
+body header {
+  color: #00F8F0;
+  margin-left: 20px;
+}
+
+p > span {
+  background-color: DodgerBlue;
+}
+
+img + figcaption {
+  font-weight: bold;
+}
+
+h1 + b {
+  background-color: blanchedalmond;
+}
+
+h3, ol {
     color: rgb(20,80,38);
 }
 
-p {
+*p {
     color: hsl(20,80,38);
     text-decoration: overline;
+    text-align: center;
 }
 
 p.dotted {
@@ -28,4 +51,10 @@ p.dotted {
   border-radius: 10px;
 }
 
+#bruh1 {
+  background-color: orange;
+}
 
+li[class="a"] {
+    background-color: yellow;
+}
