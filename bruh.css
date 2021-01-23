@@ -107,3 +107,7 @@ img {
 button:active {
   color:chartreuse;
 }
+
+          .box {
+            display: flex;
+          }
