@@ -83,16 +83,14 @@ svg {
 }
 
 
-div {
+div.seperator {
   width: 300px;
-  border: 15px solid green;
   padding: 50px;
   margin: 20px;
 }
 
 img {
   height: 300px;
-  border: 15px solid green;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
