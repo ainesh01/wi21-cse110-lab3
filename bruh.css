@@ -115,3 +115,11 @@ button:active {
   justify-content: space-evenly;
 
 }
+
+.grid {
+  display: grid;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+
+}
